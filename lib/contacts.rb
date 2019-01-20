@@ -14,5 +14,7 @@ contacts = {
 }
 
 contacts.each do |person, contact_details_hash|
+  contact_details_hash.each do |attrribute, data|
   binding.pry
+end
 end
